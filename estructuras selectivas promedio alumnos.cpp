@@ -1,11 +1,14 @@
 #include<iostream>
+#include<string>
+
 using namespace std;
 int main()
 {
     double promedio, igv, descuento, pension, pagofinal;
+    string user;
     cout<<"BIENVENIDO AL SISTEMA "<<endl;
     cout<<"**********************"<<endl;
-
+    cout<<"USUARIO: "; cin>>user;
     cout<<"Ingrese su promedio: "; cin>>promedio;
     cout<<"Ingrese la pension educativa: "; cin>>pension;
     if(promedio>=18)
