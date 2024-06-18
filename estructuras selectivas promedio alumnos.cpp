@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 	int op;
-    double promedio, igv, descuento, pension, pagofinal;
+    double promedio, igv, descuento, pension, pagofinal, parcial_1, parcial_2, prom;
     string user, clave;
-    cout<<"BIENVENIDO AL SISTEMA "<<endl;
+    cout<<" BIENVENIDO AL SISTEMA "<<endl;
     cout<<"**********************"<<endl;
     cout<<"USUARIO: "; cin>>user;
     cout<<"CLAVE: "; cin>>clave;
@@ -34,7 +34,12 @@ int main()
                 }
                 pagofinal=((pension-descuento)+igv);
                 cout<<"Su pension a pagar es: S/. " <<pagofinal<<endl;
+                break;
             case 2:
+            	cout<<"Ingrese su nota del  primer parcial: "; cin>>parcial_1;
+            	cout<<"Ingrese su nota del segundo parcial: "; cin>>parcial_2;
+            	prom=(parcial_1+parcial_2)/2;
+            	cout<<"PROMEDIO: " <<prom<<endl;
             	break;
             default: 
             	break;
