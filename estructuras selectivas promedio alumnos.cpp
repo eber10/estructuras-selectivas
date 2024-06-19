@@ -7,7 +7,7 @@ int main()
 	int op;
     double promedio, igv, descuento, pension, pagofinal, parcial_1, parcial_2, prom;
     string user, clave;
-    cout<<" BIENVENIDO AL SISTEMA "<<endl;
+    cout<<" BIENVENIDO AL SISTEMA ACADEMICO "<<endl;
     cout<<"**********************"<<endl;
     cout<<"USUARIO: "; cin>>user;
     cout<<"CLAVE: "; cin>>clave;
@@ -46,6 +46,10 @@ int main()
 		}
 	}
 	while(op!=0);
+	cout<<"GRACIAS POR USAR NUESTRO SISTEMA ACADEMICO "<<endl;
+	cout<<"*******************************************"<<endl;
+	cout<<"   *************************************   "<<endl;
+	
     
     return 0;
 }
