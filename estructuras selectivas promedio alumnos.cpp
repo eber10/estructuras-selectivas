@@ -4,9 +4,10 @@
 using namespace std;
 int main()
 {
-	int op;
+	int opcion;
     double promedio, igv, descuento, pension, pagofinal, parcial_1, parcial_2, prom;
     string user, clave;
+
     cout<<" BIENVENIDO AL SISTEMA ACADEMICO "<<endl;
     cout<<"**********************"<<endl;
     cout<<"USUARIO: "; cin>>user;
@@ -16,8 +17,8 @@ int main()
     	cout<<"1. pension "<<endl;
     	cout<<"2. promedio "<<endl;
     	cout<<"0. salir "<<endl;
-    	cin>>op;
-    	switch(op)
+    	cin>>opcion;
+    	switch(opcion)
     	{
     		case 1:
     			cout<<"Ingrese su promedio: "; cin>>promedio;
@@ -45,7 +46,7 @@ int main()
             	break;
 		}
 	}
-	while(op!=0);
+	while(opcion!=0);
 	cout<<"GRACIAS POR USAR NUESTRO SISTEMA ACADEMICO "<<endl;
 	cout<<"*******************************************"<<endl;
 	cout<<"   *************************************   "<<endl;
